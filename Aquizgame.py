@@ -7,7 +7,7 @@ st.markdown("---")
 
 # Define the questions and answers (with updated answers)
 questions = {
-    "Who is the current President of the United States?": "Joe Biden",
+    "Who is the current President of the United States?": "donald trump",
     "What is the capital of the United States?": "Washington D.C.",
     "Who invented the Tesla coil?": "Nikola Tesla",
     "What is the name of the famous painting by Vincent van Gogh?": "Starry Night",

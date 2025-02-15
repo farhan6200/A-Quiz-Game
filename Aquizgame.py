@@ -1,4 +1,26 @@
-# Select random questions
+import streamlit as st
+import random
+
+st.title('Are you smarter than a 5th grader?')
+st.write('This quiz will test your knowledge about general knowledge.')
+st.write('I am still learning, so there may be some errors.')
+st.markdown("-------------------------------")
+# Define the questions and answers
+
+questions = {
+    "what is the name of the president of the united states?":"donald trump",
+    "what is the capital of united states?":"washington d.c.",
+    "who invented the tesla coil?":"nikola Tesla",
+    "what is the name of the famous painting by vincent van gogh?":"starry night",
+    "what is the name of the largest island in the world?":"greenland",
+    "who is the current president of canada?":"Justin Trudeau",
+    "what is the name of the largest ocean in the world?":"atlantic ocean",
+    "what is the name of the longest river in the world?":"nile river",
+    "who is the author of one piece manga series?":"eiichiro Oda",
+    "what is the name of the largest desert in the world?":"sahara desert"
+    
+
+}
 total_questions = 5
 selected_questions = random.sample(list(questions.keys()), total_questions)
 
